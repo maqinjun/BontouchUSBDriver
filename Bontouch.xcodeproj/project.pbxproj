@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E718584D18618A04009A48DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E718584B18618A04009A48DC /* InfoPlist.strings */; };
-		E718585018618A04009A48DC /* MyDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E718584F18618A04009A48DC /* MyDriver.cpp */; };
+		E718585018618A04009A48DC /* Bontouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E718584F18618A04009A48DC /* Bontouch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E718584318618A04009A48DC /* MyDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		E718584318618A04009A48DC /* Bontouch.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bontouch.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718584718618A04009A48DC /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
-		E718584A18618A04009A48DC /* MyDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDriver-Info.plist"; sourceTree = "<group>"; };
+		E718584A18618A04009A48DC /* Bontouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bontouch-Info.plist"; sourceTree = "<group>"; };
 		E718584C18618A04009A48DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E718584E18618A04009A48DC /* MyDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDriver.h; sourceTree = "<group>"; };
-		E718584F18618A04009A48DC /* MyDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyDriver.cpp; sourceTree = "<group>"; };
-		E718585118618A04009A48DC /* MyDriver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDriver-Prefix.pch"; sourceTree = "<group>"; };
+		E718584E18618A04009A48DC /* Bontouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bontouch.h; sourceTree = "<group>"; };
+		E718584F18618A04009A48DC /* Bontouch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bontouch.cpp; sourceTree = "<group>"; };
+		E718585118618A04009A48DC /* Bontouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bontouch-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 		E718583818618A04009A48DC = {
 			isa = PBXGroup;
 			children = (
-				E718584818618A04009A48DC /* MyDriver */,
+				E718584818618A04009A48DC /* Bontouch */,
 				E718584518618A04009A48DC /* Frameworks */,
 				E718584418618A04009A48DC /* Products */,
 			);
@@ -44,7 +44,7 @@
 		E718584418618A04009A48DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E718584318618A04009A48DC /* MyDriver.kext */,
+				E718584318618A04009A48DC /* Bontouch.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,22 +65,23 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		E718584818618A04009A48DC /* MyDriver */ = {
+		E718584818618A04009A48DC /* Bontouch */ = {
 			isa = PBXGroup;
 			children = (
-				E718584E18618A04009A48DC /* MyDriver.h */,
-				E718584F18618A04009A48DC /* MyDriver.cpp */,
+				E718584F18618A04009A48DC /* Bontouch.cpp */,
+				E718584E18618A04009A48DC /* Bontouch.h */,
 				E718584918618A04009A48DC /* Supporting Files */,
 			);
+			name = Bontouch;
 			path = MyDriver;
 			sourceTree = "<group>";
 		};
 		E718584918618A04009A48DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E718584A18618A04009A48DC /* MyDriver-Info.plist */,
+				E718584A18618A04009A48DC /* Bontouch-Info.plist */,
 				E718584B18618A04009A48DC /* InfoPlist.strings */,
-				E718585118618A04009A48DC /* MyDriver-Prefix.pch */,
+				E718585118618A04009A48DC /* Bontouch-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -98,9 +99,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E718584218618A04009A48DC /* MyDriver */ = {
+		E718584218618A04009A48DC /* Bontouch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E718585418618A04009A48DC /* Build configuration list for PBXNativeTarget "MyDriver" */;
+			buildConfigurationList = E718585418618A04009A48DC /* Build configuration list for PBXNativeTarget "Bontouch" */;
 			buildPhases = (
 				E718583D18618A04009A48DC /* Sources */,
 				E718583E18618A04009A48DC /* Frameworks */,
@@ -112,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = MyDriver;
+			name = Bontouch;
 			productName = MyDriver;
-			productReference = E718584318618A04009A48DC /* MyDriver.kext */;
+			productReference = E718584318618A04009A48DC /* Bontouch.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +127,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = maqj;
 			};
-			buildConfigurationList = E718583C18618A04009A48DC /* Build configuration list for PBXProject "MyDriver" */;
+			buildConfigurationList = E718583C18618A04009A48DC /* Build configuration list for PBXProject "Bontouch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E718584218618A04009A48DC /* MyDriver */,
+				E718584218618A04009A48DC /* Bontouch */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E718585018618A04009A48DC /* MyDriver.cpp in Sources */,
+				E718585018618A04009A48DC /* Bontouch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +220,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -241,7 +242,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -251,6 +252,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -258,14 +260,19 @@
 		E718585518618A04009A48DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyDriver/MyDriver-Prefix.pch";
-				INFOPLIST_FILE = "MyDriver/MyDriver-Info.plist";
+				GCC_PREFIX_HEADER = "MyDriver/Bontouch-Prefix.pch";
+				INFOPLIST_FILE = "MyDriver/Bontouch-Info.plist";
 				MODULE_NAME = com.bonxeon.hid.MyDriver;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Bontouch;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -273,14 +280,19 @@
 		E718585618618A04009A48DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyDriver/MyDriver-Prefix.pch";
-				INFOPLIST_FILE = "MyDriver/MyDriver-Info.plist";
+				GCC_PREFIX_HEADER = "MyDriver/Bontouch-Prefix.pch";
+				INFOPLIST_FILE = "MyDriver/Bontouch-Info.plist";
 				MODULE_NAME = com.bonxeon.hid.MyDriver;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Bontouch;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -288,7 +300,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E718583C18618A04009A48DC /* Build configuration list for PBXProject "MyDriver" */ = {
+		E718583C18618A04009A48DC /* Build configuration list for PBXProject "Bontouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E718585218618A04009A48DC /* Debug */,
@@ -297,13 +309,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E718585418618A04009A48DC /* Build configuration list for PBXNativeTarget "MyDriver" */ = {
+		E718585418618A04009A48DC /* Build configuration list for PBXNativeTarget "Bontouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E718585518618A04009A48DC /* Debug */,
 				E718585618618A04009A48DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

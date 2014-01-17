@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3E55321-6889-4C0F-BFA7-687ACE5382BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyDriver</string>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyDriver.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCA9A402-FDF6-466A-968E-782B23F5D73D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maqinjun/MyDriver.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCA9A402-FDF6-466A-968E-782B23F5D73D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCA9A402-FDF6-466A-968E-782B23F5D73D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyDriver</string>
+		</dict>
+	</array>
+</dict>
+</plist>
